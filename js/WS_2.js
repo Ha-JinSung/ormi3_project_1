@@ -1,9 +1,9 @@
-document.getElementById("WS_Create_Page").addEventListener("click", function() {
-            window.location.href = "WS_Create_Page.html";
-        });
-
+document.getElementById("WS_create_Page").addEventListener("click", function() {
+    window.location.href = "WS_Create_Page.html";
+});
 document.getElementById("WS_Saved_Page").addEventListener("click", function() {
-            window.location.href = "WS_Saved_Page.html";
+    window.location.href = "WS_Saved_Page.html";
+});
 
 const $saved_WS_Container = document.getElementById('saved_WS');
 let $saved_WS = JSON.parse(localStorage.getItem('saved_WS') || '[]');
