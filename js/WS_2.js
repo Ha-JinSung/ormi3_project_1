@@ -34,14 +34,11 @@ function render_WS() {
         $deleteButton.style.borderRadius = '5px';
         $deleteButton.style.background = 'rgb(168, 35, 35)'; 
         $deleteButton.addEventListener('mouseover', () => {
-            // 마우스 호버 시 버튼 색상 변경
-            $deleteButton.style.background = 'rgb(255, 3, 3)'; 
-
+        $deleteButton.style.background = 'rgb(255, 3, 3)'; 
         });
         $deleteButton.addEventListener('mouseout', () => {
-            $deleteButton.style.color = 'white';
-            // 마우스가 벗어날 때 원래 색상으로 변경
-            $deleteButton.style.background = 'rgb(168, 35, 35)'; 
+        $deleteButton.style.color = 'white';
+        $deleteButton.style.background = 'rgb(168, 35, 35)'; 
         });
         const $buttonWrapper = document.createElement('div');
         $buttonWrapper.appendChild($deleteButton);
@@ -70,10 +67,8 @@ $EP_BTN.addEventListener('click', () => {
     const encodedData = encodeURIComponent(exportedData);
     const shareLink = window.location.origin + '/ormi3_project_1_WS.github.io/about.html?data=' + encodedData;
 
-    // Clipboard API를 사용하여 링크를 클립보드에 복사
     navigator.clipboard.writeText(shareLink)
         .then(() => {
-            // 복사 성공 시 알림 표시
             alert('링크가 클립보드에 복사되었습니다.');
         })
         .catch((err) => {
