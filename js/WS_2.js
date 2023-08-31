@@ -68,10 +68,10 @@ $clear_Button.addEventListener('click', () => {
 $EP_BTN.addEventListener('click', () => {
     const exportedData = JSON.stringify($saved_WS);
     const encodedData = encodeURIComponent(exportedData);
-    const shareLink = window.location.origin + '/shared.html?data=' + encodedData;
+    const shareLink = window.location.origin + '/https://ha-jinsung.github.io/ormi3_project_1_WS.github.io/about.html?data=' + encodedData;
 
     // 새 창 열기
-    window.open(shareLink, '_blank');
+    window.open(shareLink, 'https://ha-jinsung.github.io/ormi3_project_1_WS.github.io/about.html_blank');
 });
 
 function deleteQuoteFromStorage(index) {
