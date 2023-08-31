@@ -7,7 +7,7 @@
 
 const $saved_WS_Container = document.getElementById('saved_WS');
 let $saved_WS = JSON.parse(localStorage.getItem('saved_WS') || '[]');
-const $clear_Button = document.getElementById('clear_Button'); // 수정: 변수명 수정
+const $clear_Button = document.getElementById('clear_Button'); 
 const $EP_BTN = document.getElementById('EP_BTN');
 
 function render_WS() {
@@ -32,15 +32,16 @@ function render_WS() {
         $deleteButton.style.border = 'none';
         $deleteButton.style.height = '20px';
         $deleteButton.style.borderRadius = '5px';
-        $deleteButton.style.background = 'rgb(168, 35, 35)'; // 버튼 색상 설정
+        $deleteButton.style.background = 'rgb(168, 35, 35)'; 
         $deleteButton.addEventListener('mouseover', () => {
-
-            $deleteButton.style.background = 'rgb(255, 3, 3)'; // 마우스 호버 시 버튼 색상 변경
+            // 마우스 호버 시 버튼 색상 변경
+            $deleteButton.style.background = 'rgb(255, 3, 3)'; 
 
         });
         $deleteButton.addEventListener('mouseout', () => {
             $deleteButton.style.color = 'white';
-            $deleteButton.style.background = 'rgb(168, 35, 35)'; // 마우스가 벗어날 때 원래 색상으로 변경
+            // 마우스가 벗어날 때 원래 색상으로 변경
+            $deleteButton.style.background = 'rgb(168, 35, 35)'; 
         });
         const $buttonWrapper = document.createElement('div');
         $buttonWrapper.appendChild($deleteButton);
