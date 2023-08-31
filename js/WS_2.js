@@ -1,3 +1,10 @@
+document.getElementById("WS_Create_Page").addEventListener("click", function() {
+            window.location.href = "WS_Create_Page.html";
+        });
+
+document.getElementById("WS_Saved_Page").addEventListener("click", function() {
+            window.location.href = "WS_Saved_Page.html";
+
 const $saved_WS_Container = document.getElementById('saved_WS');
 let $saved_WS = JSON.parse(localStorage.getItem('saved_WS') || '[]');
 const $clear_Button = document.getElementById('clear_Button'); // 수정: 변수명 수정
