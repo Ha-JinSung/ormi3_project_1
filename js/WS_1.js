@@ -1,5 +1,5 @@
-    document.getElementById("WS_create_Page").addEventListener("click", function() {
-    window.location.href = "WS_Create_Page.html";
+    document.getElementById("index").addEventListener("click", function() {
+    window.location.href = "index.html";
     });
     document.getElementById("WS_Saved_Page").addEventListener("click", function() {
     window.location.href = "WS_Saved_Page.html";
