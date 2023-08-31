@@ -1,9 +1,9 @@
-    document.getElementById("index").addEventListener("click", function() {
+document.getElementById("index").addEventListener("click", function() {
     window.location.href = "index.html";
-    });
-    document.getElementById("WS_Saved_Page").addEventListener("click", function() {
+});
+document.getElementById("WS_Saved_Page").addEventListener("click", function() {
     window.location.href = "about.html";
-    });
+});
 
 const $input = document.querySelector('input');
 const $button = document.querySelector('button');
