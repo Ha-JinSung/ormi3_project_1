@@ -1,0 +1,51 @@
+.saved_WS {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-size: 19px;
+    max-height: 275px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    box-shadow: 3px 5px 10px 2px black;
+}
+
+.save_contatiner {
+    padding-bottom: 70px;
+}
+
+.saved_WS::-webkit-scrollbar {
+    display: none;
+}
+
+.WS_BtnDel {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(168, 35, 35);
+}
+
+.WS_BtnDel:hover {
+    background-color: rgb(255, 3, 3);
+}
+
+.WS_BtnDel:disabled {
+    background-color: #ccc;
+}
+
+.EP_BTN {
+    width: 30%;
+    text-align: center;
+}
+
+.EP_BTN:hover {
+    background-color: rgb(42, 250, 0);
+}
+
+.EP_BTN:disabled {
+    background-color: #ccc;
+}

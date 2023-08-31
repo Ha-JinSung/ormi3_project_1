@@ -1,0 +1,160 @@
+    @font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'Pretendard-Regular', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    button:enabled {
+        cursor: pointer;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    input[type="text"] {
+        height: 28px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+    
+    img {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+    }
+    
+    .layout_header {
+        height: 80px;
+        padding: 0 20px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .layout_header div {
+        display: flex;
+        gap: 40px;
+    }
+    
+    .layout_header div * {
+        text-decoration: none;
+        font: inherit;
+        color: inherit;
+        background: none;
+        border: 0;
+    }
+    
+    .layout_footer {
+        text-align: center;
+        background-color: #eee;
+        padding: 30px 0;
+    }
+    
+    body {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        min-height: 100vh;
+        gap: 60px;
+    }
+    
+    main {
+        flex-grow: 1;
+    }
+    
+    .TD_WS {
+        font-size: 28px;
+    }
+    
+    .WS_BTN,
+    .WS_BtnDel,
+    .EP_BTN {
+        box-sizing: border-box;
+        width: 55px;
+        background-color: green;
+        border: 1px;
+        border-radius: 4px;
+        height: 28px;
+        color: white;
+        font-weight: bold;
+        padding: 0 8px;
+        transition: background-color 0.5s ease;
+    }
+    
+    .WS_BTN:hover {
+        background-color: rgb(42, 250, 0);
+    }
+    
+    .WS_BTN:disabled {
+        background-color: #ccc;
+    }
+    
+    .WS_main {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .container {
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    h3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+        font: inherit;
+    }
+    
+    .WS_IP,
+    .WS_BTN {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        font: inherit;
+    }
+    
+    .random_text {
+        margin: 10px, 0, 10px, 0;
+        color: gray;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .answer {
+        display: none;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        padding: 20px;
+        font-size: 19px;
+        padding: 15px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 10px 0 black;
+    }
