@@ -5,7 +5,7 @@
     window.location.href = "about.html";
     });
 
-    const $input = document.querySelector('input');
+const $input = document.querySelector('input');
 const $button = document.querySelector('button');
 const $answer = document.querySelector('.answer');
 const saved_WS_Form = document.getElementById('saved_WS_Form');
