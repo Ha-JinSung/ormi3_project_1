@@ -46,7 +46,7 @@ function render_WS() {
         document.body.appendChild($buttonWrapper);
 
         $deleteButton.addEventListener('click', () => {
-            deleteQuoteFromStorage(index);
+            deleteWSFromStorage(index);
         });
         $WS_Element.appendChild($buttonWrapper);
 
@@ -76,13 +76,13 @@ $EP_BTN.addEventListener('click', () => {
         });
 });
 
-function deleteQuoteFromStorage(index) {
+function deleteWSFromStorage(index) {
     $saved_WS.splice(index, 1);
     localStorage.setItem('saved_WS', JSON.stringify($saved_WS));
     render_WS();
 }
 
-function addQuoteToStorage(content) {
+function addWSToStorage(content) {
     $saved_WS.push(content);
     localStorage.setItem('saved_WS', JSON.stringify($saved_WS));
     render_WS();
