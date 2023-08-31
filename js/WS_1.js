@@ -1,3 +1,10 @@
+    document.getElementById("WS_Create_Page").addEventListener("click", function() {
+            window.location.href = "WS_Create_Page.html";
+        });
+
+    document.getElementById("WS_Saved_Page").addEventListener("click", function() {
+            window.location.href = "WS_Saved_Page.html";
+        });
     const $input = document.querySelector('input');
     const $button = document.querySelector('button');
     const $answer = document.querySelector('.answer');
