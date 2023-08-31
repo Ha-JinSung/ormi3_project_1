@@ -5,10 +5,10 @@
     window.location.href = "about.html";
     });
 
-    const $saved_WS_Container = document.getElementById('saved_WS');
-    let $saved_WS = JSON.parse(localStorage.getItem('saved_WS') || '[]');
-    const $clear_Button = document.getElementById('clear_Button'); // 수정: 변수명 수정
-    const $EP_BTN = document.getElementById('EP_BTN');
+const $saved_WS_Container = document.getElementById('saved_WS');
+let $saved_WS = JSON.parse(localStorage.getItem('saved_WS') || '[]');
+const $clear_Button = document.getElementById('clear_Button'); // 수정: 변수명 수정
+const $EP_BTN = document.getElementById('EP_BTN');
 
 function render_WS() {
     if ($saved_WS.length === 0) {
