@@ -70,8 +70,15 @@ $EP_BTN.addEventListener('click', () => {
     const encodedData = encodeURIComponent(exportedData);
     const shareLink = window.location.origin + '/ormi3_project_1_WS.github.io/about.html?data=' + encodedData;
 
-    // 새 창 열기
-    window.open(shareLink, '_blank');
+    // Clipboard API를 사용하여 링크를 클립보드에 복사
+    navigator.clipboard.writeText(shareLink)
+        .then(() => {
+            // 복사 성공 시 알림 표시
+            alert('링크가 클립보드에 복사되었습니다.');
+        })
+        .catch((err) => {
+            console.error('링크 복사 실패:', err);
+        });
 });
 
 function deleteQuoteFromStorage(index) {
