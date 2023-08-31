@@ -2,7 +2,7 @@
     window.location.href = "index.html";
     });
     document.getElementById("WS_Saved_Page").addEventListener("click", function() {
-    window.location.href = "WS_Saved_Page.html";
+    window.location.href = "about.html";
     });
 
     const $input = document.querySelector('input');
