@@ -99,10 +99,6 @@
         background-color: rgb(42, 250, 0);
     }
     
-    .WS_BTN:disabled {
-        background-color: #ccc;
-    }
-    
     .WS_main {
         display: flex;
         box-sizing: border-box;

@@ -33,10 +33,6 @@
     background-color: rgb(255, 3, 3);
 }
 
-.WS_BtnDel:disabled {
-    background-color: #ccc;
-}
-
 .EP_BTN {
     width: 30%;
     text-align: center;
@@ -44,8 +40,4 @@
 
 .EP_BTN:hover {
     background-color: rgb(42, 250, 0);
-}
-
-.EP_BTN:disabled {
-    background-color: #ccc;
 }
