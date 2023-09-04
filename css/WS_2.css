@@ -1,9 +1,13 @@
+.save_contatiner {
+    padding-bottom: 70px;
+}
+
 .saved_WS {
     width: auto;
     height: auto;
     padding: 15px;
     border-radius: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -17,6 +21,34 @@
 
 .save_contatiner {
     padding-bottom: 70px;
+}
+
+.saved_WS::-webkit-scrollbar {
+    display: none;
+}
+
+.WS_BtnDel {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(168, 35, 35);
+}
+
+.WS_BtnDel:hover {
+    background-color: rgb(255, 3, 3);
+}
+
+.WS_BTNLK,
+.DW_BTN {
+    width: 30%;
+    text-align: center;
+}
+
+.WS_BTNLK:hover {
+    background-color: rgb(42, 250, 0);
+}
+
+.DW_BTN:hover {
+    background-color: rgb(42, 250, 0);
 }
 
 .saved_WS::-webkit-scrollbar {
