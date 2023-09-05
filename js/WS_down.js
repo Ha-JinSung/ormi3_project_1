@@ -4,7 +4,7 @@ $DW_BTN.addEventListener('click', () => {
 
 function WS_Down() {
     const WS_DownDate = JSON.stringify($saved_WS, null, 1).replace(/\\"/g, "");
-    const blob = new Blob([WS_DownDate], { type: 'application/text' });
+    const blob = new Blob([WS_DownDate], { type: 'application/json' });
     const WS_DownLink = document.createElement('a');
 
     WS_DownLink.href = URL.createObjectURL(blob);
