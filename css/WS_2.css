@@ -19,10 +19,6 @@
     box-shadow: 3px 5px 10px 2px black;
 }
 
-.save_contatiner {
-    padding-bottom: 70px;
-}
-
 .saved_WS::-webkit-scrollbar {
     display: none;
 }
@@ -44,11 +40,11 @@
 }
 
 .WS_BTNLK:hover {
-    background-color: rgb(42, 250, 0);
+    background-color: rgb(33, 201, 0);
 }
 
 .DW_BTN:hover {
-    background-color: rgb(42, 250, 0);
+    background-color: rgb(65, 195, 255);
 }
 
 .saved_WS::-webkit-scrollbar {
@@ -72,4 +68,16 @@
 
 .EP_BTN:hover {
     background-color: rgb(42, 250, 0);
+}
+
+.WS_listBtnDel {
+    color: white;
+    border: none;
+    height: 20px;
+    border-radius: 8px;
+    background: rgb(168, 35, 35);
+}
+
+.WS_listBtnDel:hover {
+    background: rgb(255, 3, 3);
 }

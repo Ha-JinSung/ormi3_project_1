@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="css/WS_common.css">
 </head>
 
-<body>
+<body class="light-mode">
     <header class="layout_header">
         <h1>오늘의 명언</h1>
         <div>
-            <a href="#" id="index">명언 추천</a>
+            <a href="#" id="WS_create_Page">명언 제작</a>
             <a href="#" id="WS_Saved_Page">명언 저장소</a>
         </div>
     </header>
-    <img src="css/img/WS.JPG">
-    <h3 class="TD_WS"><strong>명 언 추 천</strong></h3>
+    <img id="WS_Title">
+    <h3 class="TD_WS"><strong>명 언 제 작</strong></h3>
     <main class="WS_main">
         <div class="container">
             <div class="answer" id="answer">
@@ -25,15 +25,23 @@
             </div>
             <form id="saved_WS_Form">
                 <input class="WS_IP" type="text" placeholder="주제를 넣어주세요">
-                <button class="WS_BTN" type="submit">추 천!</button>
-                <p class="random_text">랜덤명언 추천은 추 천!을 누르면 나옵니다.</p>
+                <button class="WS_BTN" type="submit">제 작!</button>
+                <p class="random_text">랜덤명언 제작은 제작!을 누르면 나옵니다.</p>
             </form>
         </div>
     </main>
     <footer class="layout_footer">
-        Made in Ormi3_Project
+        Made in Ormi3-Project
+        <div class="WS_DM">
+            <img id="WS_DarkMode">
+            <input type="checkbox" id="toggle" hidden>
+            <label for="toggle" class="toggleSwitch">
+            <span class="toggleButton"></span>
+        </label>
+        </div>
     </footer>
 </body>
+<script src="js/WS_dark.js"></script>
 <script src="js/WS_1.js"></script>
 
 </html>

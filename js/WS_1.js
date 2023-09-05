@@ -1,4 +1,4 @@
-document.getElementById("index").addEventListener("click", function() {
+document.getElementById("WS_create_Page").addEventListener("click", function() {
     window.location.href = "index.html";
 });
 document.getElementById("WS_Saved_Page").addEventListener("click", function() {
@@ -13,7 +13,10 @@ const saved_WS_Form = document.getElementById('saved_WS_Form');
 const data = []
 data.push({
     "role": "system",
-    "content": "assistant는 한글로만 무조건 30자 이내로만 한가지만 명언 만들어 주기",
+    "content": "assistant는 한국어 명언 만들어 준다",
+    "content": "assistant는 주제 있어도, 없어도 무조건 명언을 만들어 준다",
+    "content": "assistant는 한국어 30글자 이내로만 만들어 준다",
+    "content": "assistant는 명언을 만들때 한가지만 만들어 준다."
 })
 
 const url = `https://estsoft-openai-api.jejucodingcamp.workers.dev/`
