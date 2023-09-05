@@ -13,7 +13,7 @@ const saved_WS_Form = document.getElementById('saved_WS_Form');
 const data = []
 data.push({
     "role": "system",
-    "content": "assistant는 한국어로 명언을 만들어 준다",
+    "content": "assistant는 짦은 명언을 한국어로 만들어 준다",
     "content": "assistant는 주제가 있어도, 없어도 명언을 만들어 준다",
     "content": "assistant는 30글자 이내로만 만들어 준다",
     "content": "assistant는 명언을 만들때 한가지만 만들어 준다."
