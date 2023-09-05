@@ -3,7 +3,7 @@ $DW_BTN.addEventListener('click', () => {
 });
 
 function WS_Down() {
-    const WS_DownDate = JSON.stringify($saved_WS, null, 1).replace(/\\"/g, "");
+    const WS_DownDate = JSON.stringify($saved_WS, null, 2).replace(/\\"/g, "");
     const blob = new Blob([WS_DownDate], { type: 'text/plain' });
     const WS_DownLink = document.createElement('a');
 
