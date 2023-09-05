@@ -1,4 +1,4 @@
-document.getElementById('toggle').addEventListener("click", function() {
+document.getElementById('Dark_Btn').addEventListener("click", function() {
     const body = document.querySelector("body");
     body.classList.toggle("dark_mode");
 
