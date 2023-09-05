@@ -1,3 +1,4 @@
+// 사이트 링크
 $WS_BTNLK.addEventListener('click', () => {
     const shareLink = window.location.origin + '/ormi3_project_1_WS.github.io/index.html?data='
     navigator.clipboard.writeText(shareLink)

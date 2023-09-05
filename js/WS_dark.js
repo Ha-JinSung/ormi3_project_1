@@ -23,6 +23,7 @@
         const bodyElement = document.body;
         const $WS_Title = document.querySelector('#WS_Title');
         const $WS_DarkMode = document.querySelector('#WS_DarkMode');
+
         if (localStorage.getItem('darkMode') === "true") {
             bodyElement.classList.add("dark-mode");
             $WS_Title.src = 'css/img/WSdark.png';

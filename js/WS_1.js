@@ -62,8 +62,8 @@ function chatGPTAPI() {
             $answer.innerHTML = `<p>${answerContent}</p>`;
 
             const $saved_WS = localStorage.getItem('saved_WS') || '[]';
-
             const saved_WS = JSON.parse($saved_WS);
+
             saved_WS.push(answerContent);
             localStorage.setItem('saved_WS', JSON.stringify(saved_WS));
             $answer.style.display = 'block';

@@ -31,7 +31,6 @@ function render_WS() {
         const $buttonWrapper = document.createElement('div');
         $buttonWrapper.appendChild($deleteButton);
 
-
         $deleteButton.addEventListener('click', () => {
             deleteWSFromStorage(index);
         });
