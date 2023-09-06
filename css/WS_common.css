@@ -100,6 +100,7 @@ button:enabled {
     font: 30px;
     padding: 0 8px;
     transition: background-color 0.5s ease;
+    box-shadow: 2px 2px 2px 0 rgba(39, 39, 39, 0.795);
 }
 
 .DW_BTN {
@@ -161,6 +162,7 @@ h3 {
     margin-top: 20px;
     text-align: center;
     font: inherit;
+    box-shadow: 2px 2px 2px 0 rgba(39, 39, 39, 0.795);
 }
 
 .random_text {
@@ -185,6 +187,14 @@ h3 {
     box-shadow: 1px 2px 10px 0 black;
 }
 
+.WS_DM {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .dark_mode {
     background-color: #333;
     color: #fff;
@@ -194,12 +204,4 @@ h3 {
 .dark_mode footer {
     background-color: #111;
     border-color: #222;
-}
-
-.WS_DM {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }

@@ -1,0 +1,79 @@
+.saved_WS {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-size: 19px;
+    max-height: 275px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    box-shadow: 3px 5px 10px 2px black;
+}
+
+.saved_WS::-webkit-scrollbar {
+    display: none;
+}
+
+.WS_BtnDel {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(168, 35, 35);
+}
+
+.WS_BtnDel:hover {
+    background-color: rgb(255, 3, 3);
+}
+
+.WS_BTNLK,
+.DW_BTN {
+    width: 30%;
+    text-align: center;
+}
+
+.WS_BTNLK:hover {
+    background-color: rgb(33, 201, 0);
+}
+
+.DW_BTN:hover {
+    background-color: rgb(65, 195, 255);
+}
+
+.saved_WS::-webkit-scrollbar {
+    display: none;
+}
+
+.WS_BtnDel {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(168, 35, 35);
+}
+
+.WS_BtnDel:hover {
+    background-color: rgb(255, 3, 3);
+}
+
+.EP_BTN {
+    width: 30%;
+    text-align: center;
+}
+
+.EP_BTN:hover {
+    background-color: rgb(42, 250, 0);
+}
+
+.WS_listBtnDel {
+    color: white;
+    border: none;
+    height: 20px;
+    border-radius: 8px;
+    background: rgb(168, 35, 35);
+}
+
+.WS_listBtnDel:hover {
+    background: rgb(255, 3, 3);
+}
