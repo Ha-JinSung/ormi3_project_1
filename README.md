@@ -36,6 +36,26 @@ README.md
 
 ### UI 모습
 
+#### UI 화면
+![ezgif-3-4f61a8c4a5](https://github.com/Ha-JinSung/ormi3_project_1_WS.github.io/assets/142278871/9e9791f3-6578-4c9b-96c9-d055a4632860)
+---
+#### UI 화면
+
+---
+#### UI 화면
+
+---
+
+#### UI 화면
+
+---
+
+#### 검색어
+
+
+
+
+
 
 ---
 ### 작업내역
