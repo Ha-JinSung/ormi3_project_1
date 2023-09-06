@@ -47,6 +47,8 @@ README.md
 ---
 #### 사이트 링크 복사 및 목록 삭제
 ![ezgif-2-954e8516ea](https://github.com/Ha-JinSung/ormi3_project_1_WS.github.io/assets/142278871/dad79de4-5dff-472b-9315-d1e1e53f49ae)
+
+
 ---
 
 ### 문제점과 해결점
