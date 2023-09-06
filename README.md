@@ -36,40 +36,19 @@ README.md
 
 ### UI 모습
 
-#### UI 화면
+#### UI 화면 및 다크모드
 ![ezgif-3-4f61a8c4a5](https://github.com/Ha-JinSung/ormi3_project_1_WS.github.io/assets/142278871/9e9791f3-6578-4c9b-96c9-d055a4632860)
 ---
-#### UI 화면
-
+#### 명언 생성 및 저장소 목록
+![ezgif-2-380fead871](https://github.com/Ha-JinSung/ormi3_project_1_WS.github.io/assets/142278871/53114b6b-b0e2-42f5-8cff-3f571b715e89)
 ---
-#### UI 화면
-
+#### 저장소 선택 삭제와 명언 목록 다운로드
+![ezgif-2-68b2e3b631](https://github.com/Ha-JinSung/ormi3_project_1_WS.github.io/assets/142278871/48eebe78-f62f-4faa-9a65-ad64639cfe6b)
+---
+#### 사이트 링크 복사 및 목록 삭제
+![ezgif-2-954e8516ea](https://github.com/Ha-JinSung/ormi3_project_1_WS.github.io/assets/142278871/dad79de4-5dff-472b-9315-d1e1e53f49ae)
 ---
 
-#### UI 화면
-
----
-
-#### 검색어
-
-
-
-
-
-
----
-### 작업내역
-
-
--Open Ai를 통한 명언을 주제 또는 랜덤으로 생성
-
--생성된 명언들을 저장하고 선택하여 삭제 하거나 전체 삭제
-
--저장된 명언들을 개인 디바이스로 text file로 저장
-
--사이트 다크모드 적용과 홈페이지 링크 복사 기능 
-
----
 ### 문제점과 해결한 것들
     
 ---
