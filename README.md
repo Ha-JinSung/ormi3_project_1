@@ -10,29 +10,29 @@ ChatGPT를 이용하여 명언을 만들어 주는 사이트
 
 #### 프로젝트 tree
 ```
-Start
+.nojekyll
+about.html
+index.html
+README.md
+│  
 │
-├─명언생성
+├─css
+│  │  WS_common.css
+│  │  WS_Css1.css
 │  │
-│  ├─주제입력 후 생성
-│  │   │ 
-│  │   └─주제에 맞는 짦은 명언 생성 -> '명언저장소'로 저장
-│  │                                
-│  └─주제없이 생성
-│      │
-│      └─랜덤으로 생성 -> '명언저장소'로 저장
+│  └─img
+│          WS.JPG
+│          WSdark.png
+│          WS_moon.png
+│          WS_sun.png
 │
-└─명언저장소
-    │
-    ├──생성된 명언 저장
-    │   │
-    │   ├─저장된 명언 마다 삭제 가능
-    │   │
-    │   ├─목록 삭제
-    │   │
-    │   └─명언 다운 -> 개인 디바이스로 text file로 다운로드
-    │       
-    └─사이트 링크 -> 명언생성 페이지 링크주소 복사
+└─js
+        WS_1.js
+        WS_2.js
+        WS_dark.js
+        WS_down.js
+        WS_Link.js
+
 ```
 ---
 
