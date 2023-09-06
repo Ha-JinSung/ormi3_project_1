@@ -32,7 +32,6 @@ Start
 
 ### UI 모습
 
-![ezgif-3-f2864b9469](https://github.com/Ha-JinSung/ormi3_project_1_WS.github.io/assets/142278871/414b17ea-e337-47e2-afa6-3952e9237e84)
 
 ---
 ### 작업내역
