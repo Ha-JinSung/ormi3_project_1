@@ -12,7 +12,7 @@
     max-height: 275px;
     overflow-y: auto;
     box-sizing: border-box;
-    box-shadow: 3px 5px 10px 2px black;
+    box-shadow: 3px 5px 5px 0 black;
 }
 
 .saved_WS::-webkit-scrollbar {
@@ -72,6 +72,7 @@
     height: 20px;
     border-radius: 8px;
     background: rgb(168, 35, 35);
+    box-shadow: 2px 2px 2px 0 rgba(39, 39, 39, 0.795);
 }
 
 .WS_listBtnDel:hover {
