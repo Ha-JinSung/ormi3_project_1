@@ -10,28 +10,27 @@ ChatGPT를 이용하여 명언을 만들어 주는 사이트
 
 #### 프로젝트 tree
 ```
-.nojekyll
 about.html
 index.html
 README.md
 │  
 │
 ├─css
-│  │  WS_common.css
-│  │  WS_Css1.css
+│  ├─ WS_common.css
+│  ├─ WS_Css1.css
 │  │
 │  └─img
-│          WS.JPG
-│          WSdark.png
-│          WS_moon.png
-│          WS_sun.png
+│      └─── WS.JPG
+│         ├ WSdark.png
+│         ├ WS_moon.png
+│         └─ WS_sun.png
 │
 └─js
-        WS_1.js
-        WS_2.js
-        WS_dark.js
-        WS_down.js
-        WS_Link.js
+   └──── WS_1.js
+       ├ WS_2.js
+       ├ WS_dark.js
+       ├ WS_down.js
+       └─ WS_Link.js
 
 ```
 ---
