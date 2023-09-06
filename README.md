@@ -20,17 +20,16 @@ README.md
 │  ├─ WS_Css1.css
 │  │
 │  └─img
-│      └─── WS.JPG
-│         ├ WSdark.png
-│         ├ WS_moon.png
-│         └─ WS_sun.png
-│
+│      ├ WS.JPG
+│      ├ WSdark.png
+│      ├ WS_moon.png
+│      └ WS_sun.png
 └─js
-   └──── WS_1.js
-       ├ WS_2.js
-       ├ WS_dark.js
-       ├ WS_down.js
-       └─ WS_Link.js
+   ├ WS_1.js
+   ├ WS_2.js
+   ├ WS_dark.js
+   ├ WS_down.js
+   └ WS_Link.js
 
 ```
 ---
