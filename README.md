@@ -1,4 +1,4 @@
-# ormi3_project_1
+## ormi3_project_1
 
 오르미3기 프로젝트 1 
 
